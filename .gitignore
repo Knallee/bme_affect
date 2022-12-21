@@ -1,0 +1,41 @@
+
+#LT Spice
+*.log
+*.raw
+
+### Atmel Studio ###
+
+.vs/
+
+[Dd]ebug/
+[Rr]elease/
+
+*.o
+*.d
+*.elf
+*.hex
+*.map
+*.sr
+
+*.atsln
+*.cproj
+*.componentinfo.xml
+
+### Altium Designer ###
+History/
+__Previews/
+*.PrjPcbStructure
+
+bme_affect/Project\ Logs\ *
+bme_affect/Project\ Outputs\ *
+
+bme_affect_sensor_pcb/Project\ Logs\ *
+bme_affect_sensor_pcb/Project\ Outputs\ *
+
+bme_radar/Project\ Logs\ *
+bme_radar/Project\ Outputs\ *
+
+### STM32 Cube IDE ###
+
+.metadata/
+.settings/
